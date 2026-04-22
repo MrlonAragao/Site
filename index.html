@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título da página</title>
+</head>
+<body>
+    <header>
+        <nav class="hero">
+            <h1>Marlon Aragão</h1>
+            <ul>
+                <li><a href="#Sobre">Sobre mim</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Sobre">
+        <h2>Sobre mim</h2>
+        <img src="./assets/Avatar.png" alt="Imagem do perfil" height="200">
+        <article>
+            <p>Olá eu Marlon Aragão, desenvolvedor web frontEnd</p>
+        </article>
+        <aside>
+            <h3>Habilidades</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </aside>
+    </section>
+    <section id="Projetos">
+        <h2>Projetos</h2>
+        <article>
+            <h3>Portifólio</h3>
+            <p>Este foi o primeiro que desenvolvir, estudando frontEnd..</p>
+        </article>
+    </section>
+
+<section id="habilidades">
+    <h2>Habilidades e tecnologias</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Tecnologias</th>
+                <th>Nível</th>
+                <th> Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Intermediário</td>
+                <td>Domínio da estruturação de páginas web, semântica e melhores práticas.</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediário</td>
+                <td>Experiência em estilização com flexbox,grid e layout responsivo.</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Intermediário</td>
+                <td>Habilidade em manipulação do DOM, eventos e conceitos básicos de ES6+.</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <footer>
+        <p>Copyright © 2026 Marlon Aragão. Todos os direitos reservados.</p>
+
+        <section id="Contato">
+            <h3>Contato</h3>
+            <p>Tem um projeto em mente? Entre em contato</p>
+            <form action="">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required ><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required ><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required ><br>
+
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option value="orçamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="sugestao">Sugestão</option>
+                </select><br>
+
+                <label for="menssage">Mensagem:</label>
+                <textarea id="menssage" name="menssage" cols="20" rows="5" required></textarea><br>
+
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Quero receber novidades por email!</label><br>
+                <br>
+                <input type="submit" value="Enviar mensagem">
+            </form>
+            <address>
+              Email: <a href="mailto:marlonaragao8@gmail.com">marlonaragao8@gmail.com</a>
+              Telefone: <a href="tel:+55997782822">+55 47 997782822</a>
+            </address>
+        </section>
+    </footer>
+    
+</body>
+</html>
